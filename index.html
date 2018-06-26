@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Task4 | River Crossing</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <div class="main">
+      <button onclick="moveBoat();" id="btn" class="button">Move Boat</button>
+    <div class="container">
+      <div id="left" class="container_left">
+      </div>
+      <div id="center" class="container_center">
+        <div id="b_c" class="boat_container">
+          <img id="b" class="boat" src="images/boat1.png" alt="boat">
+        </div>
+      </div>
+      <div id="right" class="container_right">
+
+          <img onclick='move("l1","lion");' id="l1" class="icon" src="images/lion.png" alt="lion">
+          <img onclick='move("l2","lion");' id="l2" class="icon" src="images/lion.png" alt="lion">
+          <img onclick='move("l3","lion");' id="l3" class="icon" src="images/lion.png" alt="lion">
+
+          <img onclick='move("s1","sheep");' id="s1" class="icon" src="images/sheep.png" alt="sheep">
+          <img onclick='move("s2","sheep");' id="s2" class="icon" src="images/sheep.png" alt="sheep">
+          <img onclick='move("s3","sheep");' id="s3" class="icon" src="images/sheep.png" alt="sheep">
+
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
